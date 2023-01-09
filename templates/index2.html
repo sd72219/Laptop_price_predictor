@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{url_for('static', filename='CSS/style.css')}}">
+<script type="text/javascript" src="{{ url_for('static', filename='script/script.js')}}">
+
+</script>   
+</head>
+<body style="background-color: rgb(238, 118, 12)">
+    <center>
+
+
+        <h2> Laptop Price Predictions </h2>
+
+    <form action="/submit" method="post">
+        <label for="Company"> Company:</label><br>
+        <input type="text" id="Company" name="Company" value="0"><br>
+        
+        <label for="TypeName"> TypeName:</label><br>
+        <input type="text" id="TypeName" name="TypeName" value="0"><br><br>
+
+        <label for="Inches"> Inches:</label><br>
+        <input type="text" id="Inches" name="Inches" value="0"><br><br>
+
+        <label for="ScreenResolution"> ScreenResolution:</label><br>
+        <input type="text" id="ScreenResolution" name="ScreenResolution" value="0"><br><br>
+
+        <label for="Cpu"> Cpu:</label><br>
+        <input type="text" id="Cpu" name="Cpu" value="0"><br><br>
+
+        <label for="Ram"> Ram:</label><br>
+        <input type="text" id="Ram" name="Ram" value="0"><br><br>
+
+        <label for="Memory"> Memory:</label><br>
+        <input type="text" id="Memory" name="Memory" value="0"><br><br>
+
+        <label for="Gpu"> Gpu:</label><br>
+        <input type="text" id="Gpu" name="Gpu" value="0"><br><br>
+
+        <label for="OpSys"> OpSys:</label><br>
+        <input type="text" id="OpSys" name="OpSys" value="0"><br><br>
+
+        <label for="Weight"> Weight:</label><br>
+        <input type="text" id="Weight" name="Weight" value="0"><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+
+    </center>
+
+
+</body>
+</html>
